@@ -1,0 +1,301 @@
+/* Body */
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #ac7088;
+  font-family: "Ubuntu";
+  text-align: center;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+.white-section {
+  background-color: #ffffff;
+  color: #ac7088;
+}
+.colored-section {
+  background-color: #ac7088;
+  color: #ffffff;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rubik", sans-serif;
+}
+h4,
+h5 {
+  font-weight: 300;
+}
+p {
+  font-weight: lighter;
+}
+@media (max-width: 991px) {
+  p {
+    font-size: large;
+  }
+}
+.title-heading {
+  font-size: 3.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 4.5rem 0 2rem 0;
+}
+.section-heading {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+
+/*  Navbar */
+.navbar-brand img {
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  /* transform: rotate(3deg); */
+  /* transform: rotate(0.3rad);/ */
+  /* transform: rotate(3grad); */
+  /* transform: rotate(.03turn);  */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #ac7088;
+  font-size: 1rem;
+  font-family: "Ubuntu", sans-serif;
+}
+.nav-item {
+  padding: 0 10px;
+}
+
+/* Title Section */
+
+#title .container-fluid{
+  text-align: left;
+  padding: 4% 10%;
+}
+.butane {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #ac7088;
+  padding: 13px 26px 13px 26px;
+  text-decoration: none;
+  border: solid #ac7088 2px;
+  margin-right: 1rem;
+}
+.butane:hover {
+  background: #deb6ab;
+  text-decoration: none;
+  border: solid #deb6ab 2px;
+}
+.butane-outline {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  color: #ac7088;
+  font-size: 20px;
+  background: white;
+  padding: 13px 26px 13px 26px;
+  border: solid #ac7088 2px;
+  text-decoration: none;
+}
+.butane-outline:hover {
+  background: #ac7088;
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 991px) {
+  .navbar-brand img {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left !important;
+  }
+  #title {
+    position: relative;
+  }
+  #features {
+    position: relative;
+  }
+  .mockup {
+    position: relative;
+    width: 50%;
+  }
+  .butane-outline {
+    font-size: 20px;
+    padding: 20px 26px 20px 20px;
+    margin-bottom: 2.5rem;
+  }
+  .title-heading {
+    margin-bottom: 3rem;
+  }
+  .butane {
+    font-size: 20px;
+    padding: 20px 26px 20px 20px;
+    margin-right: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+/* Features Section */
+
+.features-title{
+  font-weight: 400;
+}
+#features i {
+  margin-bottom: 1rem;
+}
+#features i:hover {
+  color: #deb6ab;
+}
+#features .col-md-4 {
+  padding: 0 48px;
+}
+
+/* Testimonials Section */  
+
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.testimonial-image {
+  width: 13rem;
+  height: 10rem;
+  border-radius: 4%;
+  margin: 20px;
+}
+.carousel-control-prev {
+  background: #ac7088;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin-top: 12rem;
+}
+.carousel-control-next {
+  background: #ac7088;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin-top: 12rem;
+}
+
+/* Press Section */
+#press {
+  padding: 0 0 4.5% 0;
+}
+.press-logo {
+  width: 12%;
+  margin: 24px 48px 24px;
+}
+
+/* Pricing Section */
+
+#pricing .row {
+  padding: 0 15% 15%;
+  margin: 0;
+}
+.card {
+  margin: 1rem 1rem 2rem 1rem;
+  border: none;
+  transition: all 0.2s ease-in-out;
+  color: black;
+}
+.card h5 {
+  font-weight: 500;
+}
+.card h3 {
+  font-weight: 100;
+}
+.whyShouldYouHireMe {
+  font-weight: 500;
+}
+.card-price{
+  font-weight: 400;
+}
+.card p {
+  font-weight: 100;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.lukane {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #ac7088;
+  padding: 13px 26px 13px 26px;
+  text-decoration: none;
+  border: solid #ac7088 2px;
+  margin-right: 1rem;
+}
+.lukane:hover {
+  background: #deb6ab;
+  text-decoration: none;
+  border: solid #deb6ab 2px;
+}
+
+/* Call to Action */
+#cta {
+  height: 30.8rem;
+  padding: 12% 15%;
+}
+#cta .butane-outline {
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+#cta .butane {
+  margin-top: 2rem;
+}
+
+@media (max-width: 991px) {
+  #cta .butane-outline {
+    font-size: 18.5px;
+    padding: 17px;
+    margin-top: 1.2rem;
+  }
+  #cta .butane {
+    font-size: 18.5px;
+    padding: 17px;
+    margin-top: 1.2rem;
+    margin-right: 0.5rem;
+  }
+}
+
+/* Footer */
+#footer {
+  height: 12rem;
+  padding: 5% 15%;
+  line-height: 2;
+}
+
+.footer-icons {
+  width: 130px;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+#footer p {
+  padding-bottom: 3rem;
+  font-weight: 100;
+}
