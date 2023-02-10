@@ -92,13 +92,13 @@ p {
 .butane {
   -webkit-border-radius: 7;
   -moz-border-radius: 7;
-  border-radius: 7px;
+  border-radius: 0.4375rem;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1.25rem;
   background: #ac7088;
-  padding: 13px 26px 13px 26px;
+  padding: 0.8125rem 1.625rem 0.8125rem 1.625rem;
   text-decoration: none;
-  border: solid #ac7088 2px;
+  border: solid #ac7088 0.125rem;
   margin-right: 1rem;
 }
 .butane:hover {
@@ -109,12 +109,12 @@ p {
 .butane-outline {
   -webkit-border-radius: 7;
   -moz-border-radius: 7;
-  border-radius: 7px;
+  border-radius: 0.4375rem;
   color: #ac7088;
-  font-size: 20px;
+  font-size: 1.25rem;
   background: white;
-  padding: 13px 26px 13px 26px;
-  border: solid #ac7088 2px;
+  padding: 0.8125rem 1.625rem 0.8125rem 1.625rem;
+  border: solid #ac7088 0.125rem;
   text-decoration: none;
 }
 .butane-outline:hover {
@@ -140,16 +140,16 @@ p {
     width: 50%;
   }
   .butane-outline {
-    font-size: 20px;
-    padding: 20px 26px 20px 20px;
+    font-size: 1.25rem;
+    padding: 1.25rem 1.625rem 1.25rem 1.25rem;
     margin-bottom: 2.5rem;
   }
   .title-heading {
     margin-bottom: 3rem;
   }
   .butane {
-    font-size: 20px;
-    padding: 20px 26px 20px 20px;
+    font-size: 1.25rem;
+    padding: 1.25rem 1.625rem 1.25rem 1.25rem;
     margin-right: 2.5rem;
     margin-bottom: 2.5rem;
   }
@@ -167,7 +167,7 @@ p {
   color: #deb6ab;
 }
 #features .col-md-4 {
-  padding: 0 48px;
+  padding: 0 3rem;
 }
 
 /* Testimonials Section */  
@@ -181,19 +181,19 @@ p {
   width: 13rem;
   height: 10rem;
   border-radius: 4%;
-  margin: 20px;
+  margin: 1.25rem;
 }
 .carousel-control-prev {
   background: #ac7088;
-  width: 100px;
-  height: 100px;
+  width: 6.25rem;
+  height: 6.25rem;
   border-radius: 100%;
   margin-top: 12rem;
 }
 .carousel-control-next {
   background: #ac7088;
-  width: 100px;
-  height: 100px;
+  width: 6.25rem;
+  height: 6.25rem;
   border-radius: 100%;
   margin-top: 12rem;
 }
@@ -204,7 +204,7 @@ p {
 }
 .press-logo {
   width: 12%;
-  margin: 24px 48px 24px;
+  margin: 1.5rem 3rem 1.5rem;
 }
 
 /* Pricing Section */
@@ -240,13 +240,13 @@ p {
 .lukane {
   -webkit-border-radius: 7;
   -moz-border-radius: 7;
-  border-radius: 7px;
+  border-radius: 0.4375rem;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1.25rem;
   background: #ac7088;
-  padding: 13px 26px 13px 26px;
+  padding: 0.8125rem 1.625rem 0.8125rem 1.625rem;
   text-decoration: none;
-  border: solid #ac7088 2px;
+  border: solid #ac7088 0.125rem;
   margin-right: 1rem;
 }
 .lukane:hover {
@@ -270,15 +270,15 @@ p {
 
 @media (max-width: 991px) {
   #cta .butane-outline {
-    font-size: 18.5px;
-    padding: 17px;
+    font-size: 1.1563rem;
+    padding: 1.0625rem;
     margin-top: 1.2rem;
   }
   #cta .butane {
-    font-size: 18.5px;
-    padding: 17px;
+    font-size: 1.1563rem;
+    padding: 1.0625rem;
     margin-top: 1.2rem;
-    margin-right: 0.5rem;
+    margin-right: .5rem;
   }
 }
 
@@ -299,3 +299,4 @@ p {
   padding-bottom: 3rem;
   font-weight: 100;
 }
+
