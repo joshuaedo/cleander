@@ -2,8 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Cleander</title>
 
     <!-- favicon links -->
@@ -41,48 +40,44 @@
   </head>
 
   <body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="index.html">
+        <img src="images\eje.png" width="25%" height="25%" alt="" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#press">News </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cta">Download</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <section class="white-section" id="title">
       <div class="container-fluid">
-        <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="index.html">
-            <img src="images\eje.png" width="25%" height="25%" alt="" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#footer">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#press">News
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#cta">Download</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-
         <!-- Title -->
         <div class="row">
           <div class="find col-lg-6">
@@ -133,55 +128,56 @@
     <section class="white-section" id="testimonials">
       <div class="container-fluid">
         <div
-        id="carouselExampleControls"
-        class="carousel"
-        data-bs-ride="carousel"
-        data-bs-interval="3500"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <h2 class="testimonial-text">My house is always neat and tidy these days.</h2>
-            <img
-              src="https://www.sosyncd.com/wp-content/uploads/2022/06/139.png"
-              alt="walter"
-              class="testimonial-image"
-            />
-            <em>Walt, New Mexico.</em>
-          </div>
+          id="carouselExampleControls"
+          class="carousel"
+          data-bs-ride="carousel"
+          data-bs-interval="3500"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h2 class="testimonial-text">
+                My house is always neat and tidy these days.
+              </h2>
+              <img
+                src="https://www.sosyncd.com/wp-content/uploads/2022/06/139.png"
+                alt="walter"
+                class="testimonial-image"
+              />
+              <em>Walt, New Mexico.</em>
+            </div>
 
-          <div class="carousel-item">
-            <h2 class="testimonial-text">
-              The cleaners are so friendly and professional. Highly recommend.
-            </h2>
-            <img
-              class="testimonial-image"
-              src="https://cdn.images.express.co.uk/img/dynamic/20/590x/secondary/Bob-Odenkirk-Better-Call-Saul-Breaking-Bad-2283479.jpg?r=1582097487743"
-              alt="saul"
-            />
-            <em>Saul, Illinois.</em>
+            <div class="carousel-item">
+              <h2 class="testimonial-text">
+                The cleaners are so friendly and professional. Highly recommend.
+              </h2>
+              <img
+                class="testimonial-image"
+                src="https://cdn.images.express.co.uk/img/dynamic/20/590x/secondary/Bob-Odenkirk-Better-Call-Saul-Breaking-Bad-2283479.jpg?r=1582097487743"
+                alt="saul"
+              />
+              <em>Saul, Illinois.</em>
+            </div>
           </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-      </div>
-      
     </section>
 
     <!-- Press -->
@@ -200,7 +196,7 @@
     <!-- Pricing -->
 
     <section class="colored-section" id="pricing">
-      <h2 class="section-heading container-fluid" >Top cleaners of the week</h2>
+      <h2 class="section-heading container-fluid">Top cleaners of the week</h2>
 
       <div class="row">
         <div class="col-lg-4 col-md-6">
@@ -248,8 +244,10 @@
 
     <!-- Call to Action -->
 
-    <section class="white-section"id="cta">
-      <h2 class="section-heading">Need your house cleaned? We've got you covered.</h2>
+    <section class="white-section" id="cta">
+      <h2 class="section-heading">
+        Need your house cleaned? We've got you covered.
+      </h2>
       <button class="butane" type="button">
         <i class="fa-brands fa-apple"></i> Download
       </button>
